@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(./images/background_def.gif);
+}
+
+header {
+  padding: 1em;
+  background-color: rgba(124, 23, 23, 0.904);
+}
+header h1,
+header nav li a {
+  color: rgb(238, 221, 198);
+  font-family: "Bungee", sans-serif;
+  font-weight: normal;
+}
+header nav li {
+  display: inline;
+  margin-left: 1em;
+}
+header nav li a {
+  font-size: 22px;
+  text-decoration: none;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about-team .container {
+  padding: 0.5em 0;
+  max-width: 830px;
+  margin-top: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#about-team h2 {
+  color: rgba(124, 23, 23, 0.904);
+  font-family: "Bungee", sans-serif;
+  font-weight: normal;
+}
+#about-team p {
+  color: rgba(124, 23, 23, 0.904);
+  font-family: "Reboto", sans-serif;
+}
+
+#characters .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+#characters .charac-img {
+  height: 160px;
+  width: 180px;
+  margin-left: 1.3em;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+.title h2 {
+  color: rgba(124, 23, 23, 0.904);
+  font-family: "Bungee", sans-serif;
+  font-weight: normal;
+  margin-top: 1.5em;
+}
+
+#character-infos .container {
+  display: block;
+}
+
+.content-div {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.knight h3 a,
+.druid h3 a,
+.paladin h3 a,
+.sorcerer h3 a {
+  font-family: "Reboto", sans-serif;
+  font-weight: bold;
+  color: rgba(124, 23, 23, 0.904);
+  text-decoration: none;
+}
+.knight p a,
+.druid p a,
+.paladin p a,
+.sorcerer p a {
+  font-family: "Reboto", sans-serif;
+  color: rgba(124, 23, 23, 0.904);
+  text-decoration: none;
+  font-weight: bold;
+}
+.knight p,
+.druid p,
+.paladin p,
+.sorcerer p {
+  color: rgba(124, 23, 23, 0.904);
+  font-family: "Reboto", sans-serif;
+}
+
+#news ul li,
+#news ul li a {
+  color: rgba(124, 23, 23, 0.904);
+  display: flex;
+  justify-content: center;
+}
+#news ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 1.8em;
+  background-color: rgba(124, 23, 23, 0.904);
+  padding: 1em 0;
+}
+
+footer p a {
+  text-decoration: none;
+  color: rgb(238, 221, 198);
+}
